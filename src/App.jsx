@@ -8,15 +8,20 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col bg-gray-100 dark:bg-gray-800">
+        {/* Navbar */}
         <Navbar />
-        <main className="flex-grow pt-16">
+        
+        {/* Main Content */}
+        <main className="flex-grow pt-16 pb-8 px-4 md:px-8 lg:px-16">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+
+        {/* Footer */}
         <Footer />
       </div>
     </Router>
