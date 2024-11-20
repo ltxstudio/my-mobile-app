@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaRocket, FaCode, FaDesignServices, FaMobileAlt, FaCog, FaCloud } from 'react-icons/fa';
+import { FaRocket, FaCode, FaPaintBrush, FaMobileAlt, FaCog, FaCloud } from 'react-icons/fa';
 
 function Home() {
   return (
@@ -35,7 +35,7 @@ function Home() {
         {[
           { title: 'Rocket Launch', icon: <FaRocket className="text-blue-600 dark:text-blue-300" /> },
           { title: 'Code Efficiently', icon: <FaCode className="text-green-600 dark:text-green-300" /> },
-          { title: 'Design Your Ideas', icon: <FaDesignServices className="text-purple-600 dark:text-purple-300" /> },
+          { title: 'Design Your Ideas', icon: <FaPaintBrush className="text-purple-600 dark:text-purple-300" /> },
           { title: 'Mobile Responsive', icon: <FaMobileAlt className="text-yellow-600 dark:text-yellow-300" /> },
           { title: 'Easy Configuration', icon: <FaCog className="text-red-600 dark:text-red-300" /> },
           { title: 'Cloud Integration', icon: <FaCloud className="text-gray-600 dark:text-gray-300" /> },
